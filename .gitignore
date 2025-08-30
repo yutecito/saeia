@@ -1,0 +1,33 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP / Composer / Laravel-like
+/vendor/
+.env
+.env.*
+composer.lock
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Flutter
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.dart_tool/
+ios/Pods/
+android/.gradle/
+android/local.properties
+
+# Logs / cache
+*.log
+storage/
+cache/
+tmp/
